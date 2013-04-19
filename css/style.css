@@ -1,0 +1,14 @@
+#wrapper{width:940px;height:auto;margin:0 auto;}
+#stage{position:relative;background-color:#fff;font-family:"ff-din-web",sans-serif;font-size:12px;width:940px;height:623px;margin:auto;overflow:hidden;-webkit-box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 10px;-moz-box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 10px;box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 10px;}
+#extraMenu{position:absolute;top:5px;left:5px;background:#edca56;padding:5px;font-family:"ff-din-web",sans-serif;font-weight:700;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;z-index:200;}#extraMenu a{text-decoration:none;color:#3b4040;}
+#extraMenu a:hover{color:#888d8b;}
+#info{position:relative;width:940px;height:595px;z-index:100;}#info #infoBox{position:absolute;width:200px;-webkit-box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 10px;-moz-box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 10px;box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 10px;}#info #infoBox .header{background-color:#3b4040;color:#fff;height:auto;min-height:40px;padding:5px;overflow:auto;}#info #infoBox .header .nr{margin:5px;width:30px;height:30px;padding-top:3px;font-size:16px;text-align:center;background:url(../img/yellow_dot.png) no-repeat;float:left;}
+#info #infoBox .header .headerTxt{margin:10px auto;float:left;font-size:20px;max-width:140px;line-height:24px;word-break:hyphenate;text-transform:uppercase;}
+#info #infoBox .txt{padding-top:10px;clear:both;background-color:#1b8ec5;color:#fff;font-size:14px;line-height:18px;padding:10px;}
+.big{margin-top:10px;margin-bottom:10px;font-size:34px;}
+#menu{margin-top:10px;width:940px;height:90px;}#menu a.menuItem{float:left;width:92px;margin-right:2px;height:88px;text-decoration:none;font-family:"ff-din-web",sans-serif;font-weight:700;font-size:14px;color:#fff;}#menu a.menuItem .yellowDot{position:relative;width:30px;height:30px;margin:10% auto;padding-top:4px;font-size:16px;text-align:center;background:url(../img/yellow_dot.png) no-repeat;}
+#menu a.menuItem .menuTxt{margin-top:4px;font-size:12px;text-align:center;line-height:14px;text-transform:uppercase;word-break:hyphenate;}
+#menu a.menuItem:hover{background:#1b8ec5;}
+#map{position:absolute;left:0;top:0;}
+.normal{background:#a7a9ac;}
+.active{background:#1b8ec5;}

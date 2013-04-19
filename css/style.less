@@ -1,0 +1,155 @@
+@import "functions.less";
+@lightBlue: #e7f5fb;
+@darkBlue: #0f336b;
+@darkGrey: #3B4040;
+@infoBlue: #1B8EC5;
+@infoGrey: #a7a9ac;
+@infoYellow: #edca56;
+@infoBtnGrey: #888D8B;
+
+@din-font: "ff-din-web",sans-serif;
+
+#wrapper {
+	width: 940px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#stage {
+	position: relative;
+	background-color: #fff;
+	font-family: @din-font;
+	font-size: 12px;
+	width: 940px;
+	height: 623px;
+	margin: auto;
+	overflow: hidden;
+	.dropShadow();
+}
+
+#extraMenu {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background: @infoYellow;
+	padding: 5px;
+	font-family: @din-font;
+	font-weight: 700;
+	.rounded-corners(10px);
+	z-index: 200;
+	a {
+		text-decoration: none;
+		color: @darkGrey;
+	}
+	a:hover {
+		color: @infoBtnGrey;
+	}
+}
+
+#info {
+	position: relative;
+	width: 940px;
+	height: 595px;
+	z-index: 100;
+	#infoBox {
+		position: absolute;
+		width: 200px;
+		.dropShadow();
+		.header {
+			background-color: @darkGrey;
+			color: #fff;
+			height: auto;
+			min-height: 40px;
+			padding: 5px;
+			overflow:auto; 
+			.nr {
+				margin: 5px;
+				width: 30px;
+				height: 30px;
+				padding-top: 3px;
+				font-size: 16px;
+				text-align: center;
+				background: url(../img/yellow_dot.png) no-repeat;
+				float: left;
+			}
+			.headerTxt {
+				margin: 10px auto;
+				float: left;
+				font-size: 20px;
+				max-width: 140px;
+				line-height: 24px;
+				/*word-wrap: break-word;*/
+				word-break: hyphenate;
+				text-transform: uppercase;
+			}
+		}
+		.txt {
+			padding-top: 10px;
+			clear: both;
+			background-color: @infoBlue;
+			color: #fff;
+			font-size: 14px;
+			line-height: 18px;
+			padding: 10px;
+		}
+	}
+}
+
+.big {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 34px;
+}
+
+#menu {
+	margin-top: 10px;
+	width: 940px;
+	height: 90px;
+	a.menuItem {
+		float: left;
+		width: (920)/10px;
+		margin-right: 2px;
+		height: 88px;
+		text-decoration: none;
+		font-family: @din-font;
+		font-weight: 700;
+		font-size: 14px;
+		color: #fff;
+		.yellowDot {
+			position: relative;
+			width: 30px;
+			height: 30px;
+			margin: 10% auto;
+			padding-top: 4px;
+			font-size: 16px;
+			text-align: center;
+			background: url(../img/yellow_dot.png) no-repeat;
+		}
+		.menuTxt {
+			margin-top: 4px;
+			font-size: 12px;
+			text-align: center;
+			line-height: 14px;
+			text-transform: uppercase;
+			word-break: hyphenate;
+			/*word-wrap: break-word;*/
+		}
+	}
+	a.menuItem:hover {
+		background: @infoBlue;
+	}
+}
+
+#map {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.normal {
+	background: @infoGrey;
+}
+
+.active {
+	background: @infoBlue;
+}

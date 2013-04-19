@@ -1,0 +1,41 @@
+.move(@x, @y, @s) {
+   	transform: translate(@x, @y) scale(@s); 
+}
+
+.rounded-corners(@r: 5px) {
+	-webkit-border-radius: @r;
+	-moz-border-radius: @r;
+	-ms-border-radius: @r;
+	-o-border-radius: @r;
+	border-radius: @r;
+}
+
+.antialiased(@color) {
+    color: @color;
+    text-shadow: @color 0 0 1px;
+}
+
+.box-shadow(@x: 0, @y: 3, @blur: 5, @color: #333) {
+	-webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @color);
+	-moz-box-shadow: @x @y @blur rgba(0, 0, 0, @color);
+	box-shadow: @x @y @blur rgba(0, 0, 0, @color);
+}
+
+@defaultCol: 0.25;
+.dropShadow(@col: @defaultCol) {
+	-webkit-box-shadow: rgba(0, 0, 0, @col) 0px 0px 10px;
+	-moz-box-shadow: rgba(0, 0, 0, @col) 0px 0px 10px;
+	box-shadow: rgba(0, 0, 0, @col) 0px 0px 10px;
+}
+
+.outline(@color) {
+	outline: 1px solid @color;
+}
+
+@defaultRadius: 30px;
+ 
+.RoundedShape(@radius: @defaultRadius) {
+    -webkit-border-radius:@radius;
+       -moz-border-radius:@radius;
+            border-radius:@radius; 
+}
