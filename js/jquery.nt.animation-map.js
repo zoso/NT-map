@@ -27,14 +27,14 @@ var dataArr = [
 		pos: [34, -300, 700, 40],
 		scale: 3,
 		head: "Til Idrett",
-		txt: '<div class="big">1,56</div>milliarder blir fordelt til idrettsformål, via den såkalte Tippenøkkelen. Idrett får 45,5%. Idrettens andel skal økes til 47,9% i år og opp til 64% i 2015.',
+		txt: '<div class="big">1,640</div>milliarder blir fordelt til idrettsformål, via den såkalte Tippenøkkelen. Idrett får 45,5%. Idrettens andel skal økes til 47,9% i år og opp til 64% i 2015.',
 		pic: '4_idrett'
 	},
 	{
 		pos: [-730, -150, 700, 40],
 		scale: 3,
 		head: "Til Kultur",
-		txt: '<div class="big">1,25</div>milliarder går til kultur-<br>formål, som er 36,5% av Tippenøkkelen. Øremerkede tiltak er blant annet Den kulturelle skolesekken og Frifond (tiltak for barn og unge).',
+		txt: '<div class="big">1,167</div>milliarder går til kultur-<br>formål, som er 36,5% av Tippenøkkelen. Øremerkede tiltak er blant annet Den kulturelle skolesekken og Frifond (tiltak for barn og unge).',
 		pic: '5_kultur'
 	},
 	{
@@ -48,7 +48,7 @@ var dataArr = [
 		pos: [-1170, 0, 700, 40],
 		scale: 2,
 		head: "Humanitære formål",
-		txt: '<div class="big">616</div>millioner går til samfunnsnyttige og humanitære organisasjoner (18% av Tippenøkkelen). Norges Røde Kors er den største mottakeren.',
+		txt: '<div class="big">627</div>millioner går til samfunnsnyttige og humanitære organisasjoner (18% av Tippenøkkelen). Norges Røde Kors er den største mottakeren.',
 		pic: '7_humanitaere_formal'
 	},
 	{
